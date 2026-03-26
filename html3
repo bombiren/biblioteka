@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+
+<div class="sidebar">
+    <h1>📖<br>Biblioteka<br>w Książkowicach<br>Wielkich</h1>
+
+    <div class="authors">
+        <h3>Polecani autorzy</h3>
+        <ul>
+            <li>Jan Brzechwa</li>
+            <li>Joseph Conrad</li>
+            <li>Julian Tuwim</li>
+            <li>Henryk Sienkiewicz</li>
+            <li>Jan Kasprowicz</li>
+            <li>Adam Mickiewicz</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        © 2024 BwKW
+    </div>
+</div>
+
+
+<div class="topbar">
+    <span>Dodaj swojego ulubionego autora</span>
+    <input type="text" placeholder="Imię autora">
+    <input type="text" placeholder="Nazwisko autora">
+    <button>Wyślij</button>
+</div>
+
+
+<div class="main">
+
+    <div class="success">
+        Dodano autora [imię autora] do kolejki!
+    </div>
+
+    <h2>Lista dostępnych książek</h2>
+
+    <ol>
+        <li>Przedwiośnie - Stefan Żeromski / Sowa SA</li>
+        <li>W pustyni i w puszczy - Henryk Sienkiewicz / Helion SA</li>
+        <li>Abecadło - Julian Tuwim / Helion SA</li>
+        <li>Lokomotywa - Julian Tuwim / Sowa SA</li>
+        <li>Potop - Henryk Sienkiewicz / Sowa SA</li>
+        <li>Quo vadis - Henryk Sienkiewicz / Helion SA</li>
+        <li>Latarnik - Henryk Sienkiewicz / Helion SA</li>
+    </ol>
+
+    <div class="filter">
+        <select>
+            <option>[Kategoria książki]</option>
+            <option>Powieść</option>
+            <option>Wiersz</option>
+            <option>Nowela</option>
+        </select>
+        <button>Filtruj</button>
+    </div>
+
+</div>
+
+
+<div class="help">?</div>
+
+</body>
+</html>
