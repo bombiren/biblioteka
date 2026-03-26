@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Biblioteka</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylee.css">
 </head>
 <body>
 
 
 <div class="sidebar">
-    <h1>📖<br>Biblioteka<br>w Książkowicach<br>Wielkich</h1>
+    <h1><br>Biblioteka<br>w Książkowicach<br>Wielkich</h1>
 
     <div class="authors">
         <h3>Polecani autorzy</h3>
@@ -39,8 +39,8 @@
 
 <div class="main">
 
-    <div class="success">
-        Dodano autora [imię autora] do kolejki!
+    <div class="info">
+        Dodano autora Jakub Foryś do kolejki!
     </div>
 
     <h2>Lista dostępnych książek</h2>
@@ -58,9 +58,6 @@
     <div class="filter">
         <select>
             <option>[Kategoria książki]</option>
-            <option>Powieść</option>
-            <option>Wiersz</option>
-            <option>Nowela</option>
         </select>
         <button>Filtruj</button>
     </div>
