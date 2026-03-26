@@ -1,99 +1,124 @@
-body{
+body {
     margin: 0;
     font-family: sans-serif;
-    background-color: #f5f5f5;
-}
-
-.container{
-    display: flex;
-    width: 100%;
-    min-height: 100vh;
-}
-
-.sidebar{
-    width: 250px;
-    background: #064D3F;
-    color: white;
-    padding: 20px;
-}
-
-.sidebar h1{
-   font-size: 20px;
-   margin-bottom: 30px;
-}
-
-.sidebar ul{
-    list-style: none;
-    padding: 0;
-    color: black;
-}
-
-.sidebar ul li{
-    margin: 5px 0;
-}
-
-.main{
-    flex: 1;
     background-color: white;
-    padding: 20px;
 }
 
-.top-form{
+
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    float: left;
+    background-color: #0f4c3a;
+    color: white;
     display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
+    flex-direction: column;
 }
 
-.top-form input{
-    padding: 5px;
-    border: 1px ;
+.sidebar h1 {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 36px;
+    line-height: 1.2;
 }
 
-.top-form button{
+.authors {
+    background-color: #9bbfbb;
+    color: black;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.authors h3 {
+    margin-top: 0;
+}
+
+
+.topbar {
+    background-color: #444;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.topbar input {
+    padding: 10px;
+    border: none;
+    background-color: #ddd;
+}
+
+.topbar button {
     background-color: #AB6939;
     border: none;
+    padding: 10px 20px;
     color: white;
-    padding: 6px 12px;
     cursor: pointer;
 }
 
-.info{
-    font-size: 12px;
-    color: gray;
-    margin-bottom: 15px;
-}
 
-h2{
+.main {
+    margin-left: 300px;
+    padding: 30px;
     text-align: center;
 }
 
-ol{
-    margin-left: 30px;
+.info {
+    margin-left: 0;
+    background-color: #bcd3cd;
+    padding: 10px;
+    color: #0f4c3a;
+    margin-bottom: 20px;
 }
 
-.filters{
+
+.main h2 {
+    font-size: 32px;
+}
+
+.main ol {
+    text-align: left;
+    display: inline-block;
+}
+
+
+.filter {
     margin-top: 20px;
 }
 
-select, .filters button{
-    padding: 5px;
-    margin-right: 10px;
+.filter select {
+    padding: 15px;
+    background-color: #bbb;
+    border: none;
 }
 
-.footer{
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    font-size: 12px;
-    color: black;
+.filter button {
+    padding: 15px;
+    background-color: #bbb;
+    border: none;
+    margin-left: 10px;
 }
 
-.help{
+
+.footer {
     position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background: #064D3F;
-    color: white;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    background-color: #7aa6a1;
     padding: 10px;
-    border-radius: 5px;
+}
+
+
+.help {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #0f4c3a;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
 }
