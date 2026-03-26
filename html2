@@ -1,0 +1,59 @@
+</head>
+<body>
+
+<div class="container">
+
+   
+    <div class="sidebar">
+        <h1>📖 Biblioteka<br>w Książkowicach<br>Wielkich</h1>
+
+        <div class="authors">
+            <b>Polecani autorzy</b>
+            <ul>
+                <li>Jan Brzechwa</li>
+                <li>Joseph Conrad</li>
+                <li>Julian Tuwim</li>
+                <li>Henryk Sienkiewicz</li>
+                <li>Jan Kasprowicz</li>
+                <li>Adam Mickiewicz</li>
+            </ul>
+        </div>
+
+        <div class="footer">© 2024 BwKW</div>
+    </div>
+
+   
+    <div class="main">
+
+       
+        <div class="topbar">
+            <span>Dodaj swojego ulubionego autora</span>
+            <input type="text" placeholder="Imię autora">
+            <input type="text" placeholder="Nazwisko autora">
+            <button>Wyślij</button>
+        </div>
+
+        <h2>Lista dostępnych książek</h2>
+
+        <div class="book-list">
+            <p>1. Przedwiośnie - Stefan Żeromski / Sowa SA</p>
+            <p>2. W pustyni i w puszczy - Henryk Sienkiewicz / Helion SA</p>
+            <p>3. A... - Julian Tuwim / Helion SA</p>
+            <p>4. Lokomotywa - Julian Tuwim / Sowa SA</p>
+            <p>5. Potop - Henryk Sienkiewicz / Sowa SA</p>
+            <p>6. Quo vadis - Henryk Sienkiewicz / Helion SA</p>
+            <p>7. Latarnik - Henryk Sienkiewicz / Helion SA</p>
+        </div>
+
+        <div class="filters">
+            <select>
+                <option>Kategoria książki</option>
+          </select>
+            <button>Filtruj</button>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
