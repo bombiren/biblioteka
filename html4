@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+ 
+    <aside class="sidebar">
+        <div class="logo">
+            📖
+            <h1>Biblioteka<br>W<br>Książkowicach<br>Wielkich</h1>
+        </div>
+
+        <div class="authors">
+            <h3>Polecani autorzy</h3>
+            <ul>
+                <li>Jan Brzechwa</li>
+                <li>Joseph Conrad</li>
+                <li>Julian Tuwim</li>
+                <li>Henryk Sienkiewicz</li>
+                <li>Jan Kasprowicz</li>
+                <li>Adam Mickiewicz</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            © 2024 BwKW
+        </div>
+    </aside>
+
+  
+    <main class="main">
+
+     
+        <div class="topbar">
+            <span>Dodaj swojego ulubionego autora</span>
+            <input type="text" placeholder="Imię autora">
+            <input type="text" placeholder="Nazwisko autora">
+            <button class="send">Wyślij</button>
+        </div>
+
+        <div class="info">
+            Dodano autora [imię autora] do kolekcji!
+        </div>
+
+      
+        <div class="content">
+            <h2>Lista dostępnych książek</h2>
+
+            <ol>
+                <li>Przedwiośnie - Stefan Żeromski / Sowa SA,</li>
+                <li>W pustyni i w puszczy - Henryk Sienkiewicz / Helion SA</li>
+                <li>Aleksander Tuwim - Julian Tuwim / Helion SA</li>
+                <li>Lokomotywa - Julian Tuwim / Sowa SA</li>
+                <li>Potop - Henryk Sienkiewicz / Sowa SA</li>
+                <li>Quo vadis - Henryk Sienkiewicz / Helion SA</li>
+                <li>Latarnik - Henryk Sienkiewicz / Helion SA</li>
+            </ol>
+
+            <div class="filters">
+                <select>
+                    <option>[Kategoria książki]</option>
+                </select>
+                <button>Filtruj</button>
+            </div>
+        </div>
+
+     
+        <div class="bottom">
+            <button class="generator">Strona wykonana przez BG</button>
+            <div class="help">?</div>
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+</html>
